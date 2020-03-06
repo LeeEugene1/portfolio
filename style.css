@@ -50,23 +50,26 @@ a{
     padding: 8px 12px;
 }
 
-.nav_menu li:hover{
+.nav_menu li:hover a{
+    color: var(--background-color);
     background-color: var(--accent-color);
-    color:white;
     border-radius: 4px;
 }
 
+
 .nav_icons {
-    
     list-style: none;
-    color:white;
+    color: var(--text-color);
     display: flex;
     padding-left: 0;
+    font-size:20px;
 }
 
+.nav_icons a:hover{
+    color: var(--accent-color);
+}
 
 .nav_icons li{
-    
     padding: 8px 12px;
 }
 
