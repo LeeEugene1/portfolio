@@ -50,10 +50,13 @@ a{
     padding: 8px 12px;
 }
 
-.nav_menu li:hover a{
-    color: var(--background-color);
+.nav_menu li:hover{
     background-color: var(--accent-color);
     border-radius: 4px;
+}
+
+.nav_menu li:hover a{
+    color: var(--background-color);
 }
 
 
