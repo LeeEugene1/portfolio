@@ -1,7 +1,7 @@
 :root{
     --text-color: #f0f4f5;
-    --background-color: #263343;
-    --accent-color:#d49466;
+    --background-color: rgb(79, 165, 194);
+    --accent-color:lightblue;
 }
 
 body{
@@ -18,7 +18,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #263343;
+    background-color: var(--background-color);
     padding: 8px 12px;
 }
 
@@ -27,8 +27,17 @@ a{
     color:white;
 }
 
+.nav_logo:hover{
+    font-size: 24px;
+    color:var(--accent-color);
+}
+
 .nav_log i{
-    color:orange;
+    color: var(--accent-color);
+}
+
+.logoname a:hover{
+    color: var(--accent-color);
 }
 
 .nav_menu{
@@ -38,12 +47,11 @@ a{
 }
 
 .nav_menu li{
-    
     padding: 8px 12px;
 }
 
 .nav_menu li:hover{
-    background-color:orange;
+    background-color: var(--accent-color);
     color:white;
     border-radius: 4px;
 }
@@ -56,6 +64,7 @@ a{
     padding-left: 0;
 }
 
+
 .nav_icons li{
     
     padding: 8px 12px;
@@ -66,7 +75,11 @@ a{
     position: absolute;
     right:32px;
     font-size:25px;
-    color:orange;
+    color: var(--text-color);
+}
+
+.nav_toogleBtn:hover{
+    color: var(--accent-color);
 }
 
 @media screen and (max-width:768px) {
