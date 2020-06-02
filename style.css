@@ -112,6 +112,7 @@ section{margin-bottom: 100px;}
       }
       
       .column{margin:auto;}
+      /* .projectsWrap{display: flex;} */
       .firstProject .column, .secondProject .column{
         float: left;
         width:50%;
@@ -182,6 +183,7 @@ section{margin-bottom: 100px;}
         display: flex;
         justify-content: center;
         height: 100px;
+        width:100%;
     }
       .contact a, .contact p{color:grey;}
 
@@ -274,7 +276,13 @@ input[type=submit]:hover {
         }
         section{margin: 0;}
         .thirdProject .column {margin-bottom: 0;}
+        /* .projectsWrap{flex-direction: column;} */
         .firstProject .column, .secondProject .column{margin-bottom: 30px;}
+
+        .firstProject .column, .secondProject .column{
+          width:100%;
+        }
+
         .nav_menu.active li:first-child{margin-top:60px;}
     
         .nav_menu{
